@@ -26,7 +26,7 @@ const slideshow = {
         return this;
     },
     displayNextImage: function () {
-        if (this.img.counter === this.img.cache.length) {
+        if (this.img.counter === this.img.cache.length - 1) {
             this.img.counter = 0;
         } else {
             this.img.counter++;
