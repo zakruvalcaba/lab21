@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab 21 - The Slide Show Application</title>
-  <link href="css/styles.css" rel="stylesheet">
-  <script src="js/slideshow.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 21 - The Task Manager Application v2</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/library_storage.js"></script>
+    <script src="js/library_task.js"></script>
+    <script src="js/library_tasklist.js"></script>
+    <script src="js/task_list.js"></script>
 </head>
 
 <body>
-<main>
-  <h1>Zak's Life in a Slide Show</h1>
-  <p><img src="images/wakeboard.jpg" id="image" alt=""></p>
-  <p><span id="caption">He likes to wakeboard</span></p>
-</main>
+    <main>
+        <h1>Task Manager</h1>
+        <div id="tasks"></div>
+        Task:<br>
+        <input type="text" id="task"><br>
+        <input type="button" id="add_task" value="Add Task"><br>
+        <input type="button" id="clear_tasks" value="Clear Tasks">
+    </main>
 </body>
 </html>
